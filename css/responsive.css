@@ -1,0 +1,150 @@
+@media screen and (max-width: 900px){
+  .partner{
+    max-height: 30px;
+    max-width: 80%;
+  }
+  .navigation{
+    display: none;
+  }
+  .image{
+    position: relative;
+    bottom: 6px;
+  }
+  .link-logo{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+  }
+  .burger-bar{
+    display: block;
+    position: absolute;
+    left: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 72px;
+    padding: 0 16px;
+    font-size: 32px;
+    line-height: 72px;
+  }
+  .hidden-logo{
+    display: inline-block;
+  }
+  footer,
+  .faq,
+  .icons{
+    flex-direction: column;
+  }
+  footer{
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom:10px;
+  }
+  .faq img{
+    margin-bottom: 15px;
+  }
+  .faq a{
+    margin-bottom: 15px;
+  }
+  .icons i{
+    margin-bottom: 15px;
+  }
+  .faq,
+  .icons{
+    width: 75%;
+    margin:0;
+  }
+}
+@media screen and (max-width: 850px){
+  .info-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-3{
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 750px){
+  .hidden-pic-div{
+    display: none;
+  }
+  .hidden-pic-div1{
+    max-width: 100%;
+  }
+  .pic3,
+  .pic4{
+    display: none;
+  }
+  .pic1,
+  .pic2{
+    width: 50vw;
+    height: 70vw;
+  }
+  .make{
+    font-size: 72px;
+  }
+  .span{
+    bottom: 4px;
+    height: 50px;
+    padding-left: 8px;
+  }
+  .partners{
+    flex-wrap: wrap;
+  }
+  .section-4{
+    flex-direction: column;
+  }
+  .parallax,
+  .our-story{
+    width: 100%;
+  }
+  .our-story{
+    padding-top: 25px;
+  }
+  .img-2{
+    width: 30%;
+  }
+  .first-form-div,
+  .second-form-div{
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+  }
+  .lil-form{
+    width: 100%;
+  }
+  .second-form-div{
+    margin-top:50px;
+  }
+  .txt-area{
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 400px){
+  .make{
+    font-size: 48px;
+  }
+  .span{
+    padding-left: 0;
+    height: 48px;
+  }
+  .section-2-div{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .large-num{
+    font-size: 45px;
+  }
+  .info-p{
+    font-size: 20px;
+  }
+  .info-p-1{
+    font-size: 15px;
+  }
+  .form{
+    width: 95%;
+  }
+}
