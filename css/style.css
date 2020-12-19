@@ -1,6 +1,26 @@
 body{
   background-color: #f4eeed;
 }
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f4eeed;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7a563f;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a07458;
+}
 /* Base Classes */
 .d-flex{
   display: flex;
@@ -28,52 +48,6 @@ body{
 .nunito{
   font-family: 'Nunito Sans', sans-serif;
 }
-/* Navigation */
-/* .burger-bar{
-  display: none;
-}
-.image{
-  max-width: 100%;
-  vertical-align: middle;
-  display: inline-block;
-}
-.navigation{
-  background-color: #f4eeed;
-}
-.nav-div{
-  background-color: #f4eeed;
-  width: 100%;
-  font-size: 11px;
-  font-weight: 600;
-  position: fixed;
-  justify-content: center;
-  align-items: center;
-  height: 76px;
-  top: 0;
-}
-.navigation a{
-  display: inline-block;
-  color: #7a563f;
-  vertical-align: middle;
-  padding: 0 28px;
-  line-height: 72px;
-  text-align: center;
-  transition: color linear;
-  transition: transform 0.5s ease-out;
-}
-.navigation a:hover{
-  color: #a07458;
-  transform: scale(1.1);
-}
-.login{
-  position: absolute;
-  right: 0;
-}
-.hidden-logo{
-  display: none;
-  max-width: 100%;
-  vertical-align: middle;
-} */
 .main-nav {
   height: 11vh;
   justify-content: center;
@@ -83,6 +57,12 @@ body{
   position: fixed;
   width: 100%;
   top: 0;
+}
+.nav-links li:hover{
+  transform: scale(1.2);
+}
+.nav-links li{
+  transition: transform 0.5s ease-out;
 }
 .logo{
   display: none;
