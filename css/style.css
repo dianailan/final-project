@@ -29,7 +29,7 @@ body{
   font-family: 'Nunito Sans', sans-serif;
 }
 /* Navigation */
-.burger-bar{
+/* .burger-bar{
   display: none;
 }
 .image{
@@ -73,7 +73,58 @@ body{
   display: none;
   max-width: 100%;
   vertical-align: middle;
+} */
+.main-nav {
+  height: 11vh;
+  justify-content: center;
+  align-items: center;
+  color: #7a563f;
+  background:#f4eeed;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
+.logo{
+  display: none;
+}
+.nav-links {
+  margin-top: 10px;
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+}
+.burger {
+  display: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.line {
+  height: 1px;
+  width: 26px;
+  margin: 5px 0;
+  background: #7a563f;
+  transition: transform 0.75s ease, opacity 0.75s ease;
+}
+.nav-links a{
+  font-size: 11px;
+  color:  #7a563f;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.main-nav.show .line1 {
+  transform: translate(-10px) rotate(45deg) translate(9px);
+}
+.main-nav.show .line2 {
+  opacity: 0;
+}
+.main-nav.show .line3 {
+  transform: translate(-10px) rotate(-45deg) translate(9px);
+}
+.main-nav.show .nav-links {
+  transform: translateY(0%);
+}
+
+
 /* Section 1 */
 .section-1{
   margin-top: 76px;
@@ -329,6 +380,7 @@ body{
 }
 .txt-area textarea{
   margin-top: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .txt-area textarea:focus{
   color:  #7a563f;
@@ -349,6 +401,7 @@ body{
   margin-bottom:15px;
   border: 1px none #000;
   border-radius: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .inp:focus{
   color:  #7a563f;
