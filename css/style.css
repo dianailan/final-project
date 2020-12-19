@@ -7,7 +7,7 @@ body{
 }
 /* Scroll Bar */
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 10px;
 }
 
 /* Track */
@@ -154,6 +154,7 @@ body{
   font-weight: 800;
   letter-spacing: 2px;
   transition: background-color 0.2s linear;
+  cursor: pointer;
 }
 .btn:hover{
   background-color: #a07458;
