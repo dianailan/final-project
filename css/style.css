@@ -156,6 +156,10 @@ body{
   transition: background-color 0.2s linear;
   cursor: pointer;
 }
+.btn2{
+  background-color:#f4eeed;
+  color:#7a563f;
+}
 .btn:hover{
   background-color: #a07458;
 }
@@ -187,6 +191,10 @@ body{
 .pic3,
 .pic4{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pic1,
+.pic3{
+  margin-top:0;
 }
 .pic1{
   background-image: url("https://images.pexels.com/photos/5885840/pexels-photo-5885840.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
@@ -436,4 +444,15 @@ footer{
 }
 .icons:nth-child(2){
   font-size: 15px;
+}
+/* LOOKBOOK PAGE */
+.sec-1-h{
+  font-size: 72px;
+  color: #684835;
+}
+.section-1-1{
+  margin-top: 130px;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
 }
