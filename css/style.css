@@ -160,8 +160,21 @@ body{
   background-color:#f4eeed;
   color:#7a563f;
 }
+.btn3{
+  background-color:#f4eeed;
+  color:#7a563f;
+  margin-top: 20px;
+}
 .btn:hover{
   background-color: #a07458;
+}
+.btn2:hover{
+  background-color: #50392a;
+  color: #f4eeed;
+}
+.btn3:hover{
+  background-color: #50392a;
+  color: #f4eeed;
 }
 .small-p{
   margin-top: 20px;
