@@ -92,7 +92,8 @@
     flex-direction: column;
   }
   .parallax,
-  .our-story{
+  .our-story,
+  .parallax1{
     width: 100%;
   }
   .our-story{
@@ -117,7 +118,10 @@
     margin-top: 100px;
   }
   .quote{
-    font-size: 45px;
+    font-size: 30px;
+  }
+  .story-div{
+    border-top: 1px solid #7a563f;
   }
 }
 @media screen and (max-width: 600px) {

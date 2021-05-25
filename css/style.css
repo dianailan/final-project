@@ -569,3 +569,23 @@ footer{
     justify-content: center;
     align-items: center;
 }
+.story-div {
+  padding: 13%;
+  border-bottom: 1px solid #7a563f;
+}
+.silicon-valley{
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #7a563f;
+  padding: 10% 13%;
+}
+.silicon-valley p:nth-child(1){
+  font-size: 48px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.silicon-valley p:nth-child(2){
+  font-size: 20px;
+  line-height: 30px;
+}
