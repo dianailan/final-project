@@ -63,10 +63,10 @@ body{
   top: 0;
 }
 .nav-links li:hover{
-  transform: scale(1.2);
+  transform: scale(1.15);
 }
 .nav-links li{
-  transition: transform 0.5s ease-out;
+  transition: transform 0.3s ease-out;
 }
 .logo{
   display: none;
@@ -165,15 +165,15 @@ body{
   color:#7a563f;
   margin-top: 20px;
 }
-.btn:hover{
-  background-color: #a07458;
+.btn1:hover{
+  background: transparent;
+  color: #7a563f;
+  border: 2px solid #7a563f;
 }
-.btn2:hover{
-  background-color: #50392a;
-  color: #f4eeed;
-}
+.btn2:hover,
 .btn3:hover{
-  background-color: #50392a;
+  background: transparent;
+  border: 2px solid #f4eeed;
   color: #f4eeed;
 }
 .small-p{
@@ -438,6 +438,12 @@ footer{
   align-items: center;
   margin-left: 40px;
 }
+.faq a:hover{
+  transform: scale(1.05);
+}
+.faq a{
+  transition: transform 0.3s ease-out;
+}
 .foot{
   font-size: 10px;
   font-weight: 800;
@@ -462,10 +468,104 @@ footer{
 .sec-1-h{
   font-size: 72px;
   color: #684835;
+  justify-content: center;
+  margin-bottom: 100px;
 }
 .section-1-1{
   margin-top: 130px;
   width: 100%;
-  height: 50px;
   justify-content: center;
+}
+.suit-img{
+  max-width: 50%;
+}
+.lookbook-div{
+  justify-content: space-between;
+}
+.lookbook-text{
+  align-items: flex-start;
+  flex-direction: column;
+  color: #7a563f;
+  padding: 20% 10%;
+  background: linear-gradient(90deg, #95b4bb 0%, #f4eeed 100%);
+}
+.lookbook-text2{
+  background: linear-gradient(90deg, rgba(244,238,237,1) 0%, #a09462 100%);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+.lookbook-text1{
+  background: linear-gradient(90deg, #95b4bb 0%, #f4eeed 100%);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+.lookbook-text p:nth-child(1){
+  font-size: 40px;
+  margin-bottom: 80px;
+
+}
+.lookbook-text span{
+  display: inline-block;
+  border-bottom: 2px solid;
+  line-height: 0.5em;
+  font-size: 60px;
+}
+.lookbook-text p {
+  margin-bottom: 15px;
+}
+.lookbook-text p:nth-child(2){
+  font-size: 14px;
+  font-weight: bold;
+}
+.lookbook-text p:nth-child(3){
+  font-size: 20px;
+  line-height: 30px;
+}
+.quote{
+  font-size: 60px;
+  color: #7a563f;
+  text-align: center;
+}
+.quote-div{
+  justify-content: center;
+  align-items: center;
+}
+.quote-section{
+  margin: 10% 7%;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* STORY PAGE */
+.story-section-1{
+  margin-top: 130px;
+  justify-content: center;
+  align-items: center;
+}
+.story-section-1 span{
+  display: inline-block;
+  border-bottom: 2px solid;
+  line-height: 0.5em;
+  font-size: 60px;
+}
+.parallax1{
+    background-image: url("https://www.vertical-blinds-direct.co.uk/blog/wp-content/uploads/2015/08/linen-542866_1280.jpg");
+    height: 50vw;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

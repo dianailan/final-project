@@ -48,6 +48,15 @@
   .nav-links {
     width: 85%;
   }
+  .lookbook-div{
+    flex-direction: column;
+  }
+  .lookbook-div2{
+    flex-direction: column-reverse;
+  }
+  .suit-img{
+    max-width: 100%;
+  }
 }
 @media screen and (max-width: 750px){
   .hidden-pic-div{
@@ -107,6 +116,9 @@
   .txt-area{
     margin-top: 100px;
   }
+  .quote{
+    font-size: 45px;
+  }
 }
 @media screen and (max-width: 600px) {
   .burger {
@@ -162,5 +174,8 @@
   }
   .form{
     width: 95%;
+  }
+  .sec-1-h{
+    font-size: 50px;
   }
 }

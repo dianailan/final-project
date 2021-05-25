@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Fashion Web Page">
+        <meta name="keywords" content="HTML, CSS, JavaScript, Fashion, Project">
+        <meta name="author" content="Diana Ilan">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fashion Page</title>
+        <script src="https://kit.fontawesome.com/20a3089f61.js" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/png" href="imgs/logo.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@500&family=Nunito+Sans:wght@200&family=Playfair+Display&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+<body>
+    <nav class="main-nav d-flex">
+        <div class="logo resp-logo"><a href="#"><img src="imgs/logo.png" alt="logo" style="width: 40px;"></a></div>
+        <ul class="nav-links montserrat">
+            <li><a href="#">lookbook</a></li>
+            <li><a href="#">our story</a></li>
+            <li class="view-logo"><a href="index.html"><img src="imgs/logo.png" alt="logo" style="width: 40px; "></a></li>
+            <li><a href="#">partners</a></li>
+            <li><a href="#">book appointment</a></li>
+       </ul>
+       <div class="burger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+       </div>
+    </nav>
+    <section class="story-section-1 d-flex">
+        <h1 class="sec-1-h cormorant"><span class="allura">Our</span> Story</h1>
+    </section>
+    <section class="section-4 d-flex">
+        <div class="parallax1">
+          <img class="img-2" src="https://images.pexels.com/photos/4622423/pexels-photo-4622423.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="img">
+        </div>
+        <div class="our-story d-flex">
+          <div class="our-story-div">
+            <h2 class="cormorant story-h">Our Story</h2>
+            <p class="cormorant story-p">One day, 5 years ago, Diana was shopping one of her favorite brands online.
+               Trying to figure out what size she should buy for new high-waisted skinny jeans,
+               Diana started clicking through all the size charts and was immediately confused:
+               the size measurements seemed totally contradictory.
+              </p>
+          </div>
+        </div>
+      </section>
+      <section class="section-5 d-flex">
+        <h2 class="cormorant form-h" style="font-style: italic;">Join us today</h2>
+        <p class="cormorant form-p">If you’re interested in learning more about how to become a member of our team, please contact us!</p>
+        <form class="form d-flex" action="index.html" method="post">
+          <div class="first-form-div d-flex">
+            <div class="lil-form montserrat">
+              <label for="f-name">FULL NAME*</label>
+              <input  class="inp"  type="text" name="f-name" id="f-name" value="">
+            </div>
+            <div class="lil-form montserrat">
+              <label for="p-num">PHONE NUMBER*</label>
+              <input  class="inp"  type="text" name="p-num" id="p-num" value="">
+            </div>
+          </div>
+          <div class="second-form-div d-flex">
+            <div class="lil-form montserrat">
+              <label for="e-add">EMAIL ADDRESS*</label>
+              <input class="inp" type="text" name="e-add" id="e-add" value="">
+            </div>
+            <div class="lil-form montserrat">
+              <label for="passion">WHAT IS YOUR PASSION?</label>
+              <input class="inp" type="text" name="passion" id="passion" value="">
+            </div>
+          </div>
+          <div class="txt-area lil-form">
+            <label class="montserrat" for="experience">TELL US ABOUT ANY RELEVANT EXPERIENCE</label>
+            <textarea id="experience" name="experiences" rows="8" cols="80"></textarea>
+          </div>
+          <button class="btn btn3" type="button" name="button">SUBMIT</button>
+        </form>
+      </section>
+    <footer class="d-flex lookbook-footer">
+        <div class="faq d-flex">
+          <a href="#"><img style="max-width:45px;" src="imgs/image.png" alt="logo"></a>
+          <a href="#" class="montserrat foot">FAQ</a>
+          <a href="#" class="montserrat foot">TERMS & CONDITIONS</a>
+          <a href="#" class="montserrat foot">PRIVACY POLICY</a>
+          <a href="#" class="montserrat foot">GIFT CARDS</a>
+        </div>
+        <div class="icons d-flex">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
