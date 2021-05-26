@@ -2,7 +2,7 @@ body{
   background-color: #f4eeed;
 }
 ::selection {
-  background: grey;
+  background: #7a563f;
   color: white;
 }
 /* Scroll Bar */
@@ -498,7 +498,7 @@ footer{
 .lookbook-text1{
   background: linear-gradient(90deg, #95b4bb 0%, #f4eeed 100%);
   background-size: 400% 400%;
-  animation: gradient 8s ease infinite;
+  animation: gradient 6s ease infinite;
 }
 .lookbook-text p:nth-child(1){
   font-size: 40px;
@@ -591,9 +591,6 @@ footer{
   line-height: 30px;
 }
 /* PARTNERS */
-.partners-body{
-  line-height: 0;
-}
 .partners-header{
   justify-content: center;
   font-size: 72px;
@@ -606,6 +603,8 @@ footer{
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 1rem;
   background: #7a563f;
+  margin-top: -8px;
+  margin-bottom: -8px;
 }
 .logo-grid > div {
   background: transparent;
